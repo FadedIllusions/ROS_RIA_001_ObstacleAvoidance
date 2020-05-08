@@ -3,7 +3,9 @@
 Brief Notes Taken Over Proceeding Sections:
 
 ```
-Note: Services vs Actions. When you call a service, the robot has to wait until service has ended before doing anything else. When you call an action, your robot can still keep doing something else while performing the action.
+Note: Services vs Actions. When you call a service, the robot has to wait until service has ended 
+before doing anything else. When you call an action, your robot can still keep doing something else 
+while performing the action.
 
 
 ROS Launch Node Parameters Explained
@@ -61,7 +63,8 @@ Compile Package
 -------------------------------------
 * catkin_make
 
-Note: Sometimes (for example, in large projects) you will not want to compile all of your packages, but just the one(s) where you've made changes. Use: 'catkin_make --only-pkg-with-deps <package_name>'
+Note: Sometimes (for example, in large projects) you will not want to compile all of your packages, but 
+just the one(s) where you've made changes. Use: 'catkin_make --only-pkg-with-deps <package_name>'
 
 
 List Parameters
@@ -93,7 +96,9 @@ Get List Of Available Topics
 * rostopic list
 
 
-Note: Display information being published by a topic...'rostopic echo <topic_name>'. To read only the last message published... 'rostopic echo <topic_name> -n1'.
+Note: Display information being published by a topic...'rostopic echo <topic_name>'. To read only the 
+last message published... 'rostopic echo <topic_name> -n1'.
 
-To get information on the Int32 message, use 'rosmsg show std_msgs/Int32'. In this case, Int32 has only one variable named 'data' of type 'int32'.
+To get information on the Int32 message, use 'rosmsg show std_msgs/Int32'. In this case, Int32 has only 
+one variable named 'data' of type 'int32'.
 ```
